@@ -1,8 +1,8 @@
-import './App.css';
-
+// import './App.css';
+import { Container } from './style'
 function App() {
   return (
-    <div className="container">
+    <Container>
       <div>
       <header className="picture">
         <p>We Live by</p>
@@ -53,7 +53,7 @@ function App() {
         </div>
         </part2>
       </body>
-    </div>
+    </Container>
   );
 }
 
